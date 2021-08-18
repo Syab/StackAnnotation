@@ -1,16 +1,14 @@
 package test;
 
 import java.util.NoSuchElementException;
-
-import junit.framework.TestCase;
 import junit.framework.TestSuite;
-
-
 import org.junit.After;
 import org.junit.Before;
-import org.junit.Test;
-
 import stack.MyStringStack;
+
+
+
+
 
 
 public class MyStringStackTest extends TestCase {
@@ -39,9 +37,9 @@ public class MyStringStackTest extends TestCase {
         assertFalse (stack.isEmpty());
 	}
 
-	MyStringStack stack = new MyStringStack();
-	stack.push (s1);
-	assertTrue (stack.isEmpty());
+	// MyStringStack stack = new MyStringStack();
+	// stack.push (s1);
+	// assertTrue (stack.isEmpty());
 
 
 	@Test
